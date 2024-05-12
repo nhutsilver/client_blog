@@ -1,0 +1,19 @@
+@import "../../../styles.scss";
+
+.hero-container {
+  min-height: 200px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 300px;
+  .hero-caption {
+    position: absolute;
+    left: 3%;
+    color: #000000;
+  }
+
+  h1 {
+    font-size: 43px;
+    max-width: 80%;
+    font-weight: 500;
+  }
+}

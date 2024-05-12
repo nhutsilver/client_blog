@@ -1,0 +1,20 @@
+<div class="header">
+  <p-sidebar [(visible)]="sidebarVisible">
+    <ul class="header-menu-list">
+      <li (click)="sidebarVisible=false"
+      [routerLink]="['/home']" routerLinkActive="router-link-active"
+        class="menu-item">Home</li>
+      <li (click)="sidebarVisible=false"
+      [routerLink]="'/about'" class="menu-item">About</li>
+      <li (click)="sidebarVisible=false"
+      [routerLink]="'/posts'" class="menu-item">All blogs</li>
+      <li (click)="sidebarVisible=false"
+      [routerLink]="'/contact'" class="menu-item">Contact</li>
+      <li (click)="sidebarVisible=false"
+      [routerLink]="'/login'" class="menu-item">Login</li>
+    </ul>
+  </p-sidebar>
+  <div class="header-hamburger" (click)="sidebarVisible=true">
+    <i class="fa-solid fa-bars" style="font-size: 25px"></i>
+  </div>
+</div>

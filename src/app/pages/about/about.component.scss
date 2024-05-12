@@ -1,0 +1,33 @@
+.about {
+    margin: 0 auto;
+    width: 85%;
+
+    .container {
+        width: 100%;
+        padding: 10px 50px;
+        margin-left: 70px;
+        border: 1px solid #ebb6eb;
+    }
+    .about-content {
+        width: 100%;
+        border: 1px solid brown;
+        height: 500px;
+    }
+    .about-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 30px;
+        h4 {
+            font-size: 22px;
+        }
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .contact-form {
+            margin-top: 20px;
+            margin-bottom: 70px;
+        }
+    }
+}

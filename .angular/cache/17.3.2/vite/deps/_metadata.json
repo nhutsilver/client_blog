@@ -1,0 +1,88 @@
+{
+  "hash": "00fe6a79",
+  "configHash": "9772fe4a",
+  "lockfileHash": "55422271",
+  "browserHash": "a6b87f6d",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "5347b0cb",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "a2fc6a09",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "7cd5836f",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "756b40ff",
+      "needsInterop": false
+    },
+    "@angular/platform-browser/animations": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/animations.mjs",
+      "file": "@angular_platform-browser_animations.js",
+      "fileHash": "62d4d33d",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "47cab41c",
+      "needsInterop": false
+    },
+    "primeng/button": {
+      "src": "../../../../../node_modules/primeng/fesm2022/primeng-button.mjs",
+      "file": "primeng_button.js",
+      "fileHash": "9372f14c",
+      "needsInterop": false
+    },
+    "primeng/paginator": {
+      "src": "../../../../../node_modules/primeng/fesm2022/primeng-paginator.mjs",
+      "file": "primeng_paginator.js",
+      "fileHash": "b799def9",
+      "needsInterop": false
+    },
+    "primeng/sidebar": {
+      "src": "../../../../../node_modules/primeng/fesm2022/primeng-sidebar.mjs",
+      "file": "primeng_sidebar.js",
+      "fileHash": "532f449d",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-QKNF4SW4": {
+      "file": "chunk-QKNF4SW4.js"
+    },
+    "chunk-GUC6DT3C": {
+      "file": "chunk-GUC6DT3C.js"
+    },
+    "chunk-6WBA25CP": {
+      "file": "chunk-6WBA25CP.js"
+    },
+    "chunk-AQADO6OV": {
+      "file": "chunk-AQADO6OV.js"
+    },
+    "chunk-HWCW36DE": {
+      "file": "chunk-HWCW36DE.js"
+    },
+    "chunk-EMP5VUCG": {
+      "file": "chunk-EMP5VUCG.js"
+    },
+    "chunk-BDIIDG5I": {
+      "file": "chunk-BDIIDG5I.js"
+    },
+    "chunk-S5GZLNJS": {
+      "file": "chunk-S5GZLNJS.js"
+    }
+  }
+}

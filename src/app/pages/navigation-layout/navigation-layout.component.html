@@ -1,0 +1,9 @@
+<ng-container *ngIf="!isLoginPage">
+    <app-header></app-header>
+</ng-container>
+<div class="layout-container">
+    <router-outlet></router-outlet>
+</div>
+<ng-container *ngIf="!isLoginPage">
+    <app-footer></app-footer>
+</ng-container>

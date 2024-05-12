@@ -1,0 +1,16 @@
+@import "../../../styles.scss";
+.footer {
+  justify-content: space-around;
+  display: flex;
+  padding: 15px;
+  font-weight: bold;
+  box-shadow: inset rgba(0, 0, 0, 0.15) 0px 2px 1px;
+  width: calc(100% - $header-width);
+  margin-left: auto;
+  .footer-left {
+  
+  }
+  .footer-right {
+
+  }
+}

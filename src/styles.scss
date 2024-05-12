@@ -1,0 +1,112 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import '@fortawesome/fontawesome-free/css/all.css';
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+$border-bottom-color: #222222;
+$black-color: #000000;
+$white-color: #ffffff;
+$header-width: 70px;
+$text-author-color: #212529;
+$focus-input-color: #0d1ca3;
+*,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lora", serif;
+
+  // background-color:#F4F4F4;
+  ul li {
+    list-style-type: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: unset;
+  }
+}
+
+.layout-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.router-link-active {
+  color: $black-color;
+  opacity: 0.6;
+  border-bottom: 1px solid $border-bottom-color;
+}
+
+
+
+.p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+  background: #6fc4c5;
+  border-color: #6fc4c5;
+  color: black;
+  font-weight: bold;
+}
+
+.p-paginator .p-paginator-pages .p-paginator-page {
+  border: 0 none;
+  color: #6b7280;
+  min-width: 35px;
+  height: 35px;
+  transition: box-shadow 0.2s;
+  border-radius: 30%;
+}
+
+.header {
+  width: $header-width;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  z-index: 9200;
+  &-menu-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    line-height: 2.2;
+    font-weight: 600;
+    color: #4d5055;
+    .menu-item {
+      cursor: pointer;
+      transition: 0.2s;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+  &-hamburger {
+    cursor: pointer;
+    position: absolute;
+    right: 35.5%;
+    top: 4%;
+  }
+}
+
+.p-sidebar-close-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.p-sidebar-icon {
+  margin-top: 17px;
+  margin-left: 13px;
+  width: 3rem;
+  height: 3rem;
+}
+
+.text-error {
+  color: #ce1818;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+// "node_modules/primeng/resources/primeng.min.css",
